@@ -2,6 +2,8 @@
 
 ![screenshot](docs/assets/screenshot.gif)
 
+[Video Tutorial](https://youtu.be/YF3ci16QpoQ)
+
 For repitition
 
 ## Create new project for Bloc
