@@ -14,13 +14,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (context) => ColorBloc(),
-      child: MaterialApp(home: BlocBuilder<ColorBloc, ColorState>(
-        builder: (context, state) {
-          return Container(
-            child: FloatingActionButton(onPressed: () {}),
-          );
-        },
-      )),
+      child: MaterialApp(
+          debugShowCheckedModeBanner: false,
+          home: BlocBuilder<ColorBloc, ColorState>(
+            builder: (context, state) {
+              return Container(
+                color: state.color,
+                child: FloatingActionButton(onPressed: () {
+                  context.read<ColorBloc>().add(ChangeColorEvent());
+                }),
+              );
+            },
+          )),
     );
   }
 }
