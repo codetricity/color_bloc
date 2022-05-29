@@ -2,13 +2,14 @@
 
 ![screenshot](docs/assets/screenshot.gif)
 
-[Video Tutorial](https://youtu.be/drkvsBh2ru8)
+[Video Tutorial](https://youtu.be/YF3ci16QpoQ)
 
-For repitition
+For repetition
 
 ## Create new project for Bloc
 
 1. New Project: create new project, add flutter_bloc, equatable
+1. Flutter Color Container: delete all code below runApp, create new StatelessWidget with MaterialApp wrapped with Container with FloatingActionButton
 1. template bloc files: create event, state, bloc files using extension in blocs/color/
 1. BlocProvider: wrap MaterialApp 
 1. BlocBuilder: wrap Container 
