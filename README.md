@@ -2,7 +2,7 @@
 
 ![screenshot](docs/assets/screenshot.gif)
 
-[Video Tutorial](https://youtu.be/YF3ci16QpoQ)
+[Video Tutorial](https://youtu.be/drkvsBh2ru8)
 
 For repitition
 
